@@ -18,6 +18,7 @@ namespace BethanysPieShop
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IPieRepository, MockPieRepository>();
+            services.AddScoped<ICategoryRepository, MockCategoryRepository>();
             services.AddControllersWithViews();
         }
 
