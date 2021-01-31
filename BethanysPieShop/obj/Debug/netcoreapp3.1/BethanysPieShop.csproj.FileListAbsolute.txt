@@ -18,3 +18,5 @@ C:\Users\benth\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp
 C:\Users\benth\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.dll
 C:\Users\benth\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.pdb
 C:\Users\benth\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.genruntimeconfig.cache
+C:\Users\benth\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.RazorAssemblyInfo.cache
+C:\Users\benth\source\repos\BethanysPieShop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.RazorAssemblyInfo.cs
