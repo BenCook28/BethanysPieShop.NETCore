@@ -5,7 +5,15 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShop.Models
 {
-    public class CategoryRepository
+    public class CategoryRepository: ICategoryRepository
     {
+        private readonly AppDbContext appDbContext;
+
+        public CategoryRepository(AppDbContext appDbContext)
+        {
+            _appDbContext = appDbContext;
+        }
+
+        public IEnumerable<Category> AllCategories => _appDbContext.Categories;
     }
 }
