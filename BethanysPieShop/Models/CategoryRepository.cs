@@ -8,6 +8,7 @@ namespace BethanysPieShop.Models
     public class CategoryRepository: ICategoryRepository
     {
         private readonly AppDbContext appDbContext;
+        public AppDbContext _appDbContext;
 
         public CategoryRepository(AppDbContext appDbContext)
         {

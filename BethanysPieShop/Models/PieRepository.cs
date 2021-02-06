@@ -9,6 +9,7 @@ namespace BethanysPieShop.Models
     public class PieRepository: IPieRepository
     {
         private readonly AppDbContext appDbContext;
+        public AppDbContext _appDbContext;
 
         public PieRepository(AppDbContext appDbContext)
         {
